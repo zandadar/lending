@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', Arial;
+}
+
+body *{
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.button {
+  background: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+}
+
+.logo {
+    color: #E3B873;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation-item {
+    margin-right: 47px;
+}
+
+.header-navigation-item a {
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.phone {
+    color: white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+    padding-right: 44px;
+}
+
+.image1 {
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    height: 702px;
+    padding-top: 239px;
+    padding-right: 47px;
+    padding-bottom: 160px;
+    padding-left: 710px;
+    position: relative;
+}
+
+.image1-overlay {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image1-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: 'Yeseva One'
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
